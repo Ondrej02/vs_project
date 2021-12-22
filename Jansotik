@@ -9,7 +9,7 @@ class rim_na_int:
                 int += rim[s[i]]
         return int
 
-printrim_na_ara().prevod('MXIIL'))
+printrim_na_ara().prevod('MMXII')) "Should be 2012"
 
 #Převádí římské číslice na arabské
 
@@ -38,7 +38,7 @@ class int_na_rim:
         return roman_num
 
 
-print(int_na_rim().prevodnik(1))
-print(int_na_rim().prevodnik(4025))
+print(int_na_rim().prevodnik(1)) "Should be I"
+print(int_na_rim().prevodnik(4025)) "Should be MMMMXXV"
 
 #Převádí arabské číslice na římské
