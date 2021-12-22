@@ -1,4 +1,4 @@
-class rim_na_int:
+class rim_na_int:  
     def prevod(self, s):
         rim = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
         int = 0
@@ -11,7 +11,7 @@ class rim_na_int:
 
 printrim_na_ara().prevod('MXIIL'))
 
-
+#Převádí římské číslice na arabské
 
 
 class int_na_rim:
@@ -40,3 +40,5 @@ class int_na_rim:
 
 print(int_na_rim().prevodnik(1))
 print(int_na_rim().prevodnik(4025))
+
+#Převádí arabské číslice na římské
